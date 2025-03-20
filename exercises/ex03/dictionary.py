@@ -41,7 +41,7 @@ def favorite_color(stuff: dict[str, str]) -> str:
     return fav_color
 
 
-def bin_len(stuff: list[str]) -> dict[int, set]:
+def bin_len(stuff: list[str]) -> dict[int, set[str]]:
     """Organizes words in a list based on number of characters."""
     org: dict[int, set] = dict()
     for word in stuff:
