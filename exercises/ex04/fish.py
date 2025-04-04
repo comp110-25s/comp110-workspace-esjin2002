@@ -1,21 +1,19 @@
-<<<<<<< HEAD:exercises/ex07/fish.py
 """File to define Fish class."""
 
-class Fish:
-    
-    def __init__(self):
-        return None
-    
-    def one_day(self):
-        return None
-=======
-"""File to define Fish class."""
+__author__ = "730469891"
+
 
 class Fish:
-    
+    """Defines a fish."""
+
+    age: int
+
     def __init__(self):
+        """A fish is born."""
+        self.age = 0
         return None
-    
+
     def one_day(self):
+        """A fish ages a day."""
+        self.age += 1
         return None
->>>>>>> ff2519ea4f68b42842c91ff9910a5a37ced6d732:exercises/ex04/fish.py
